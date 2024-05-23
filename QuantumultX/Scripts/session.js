@@ -6,8 +6,7 @@
 *******************************
 
 [rewrite_local]
-https://api.stayinsession.com/auth/login url script-response-body https://raw.githubusercontent.com/isoftos/Profiles/main/QuantumultX/Scripts
-/session.js
+https://api.stayinsession.com/auth/login url script-response-body https://raw.githubusercontent.com/isoftos/Profiles/main/QuantumultX/Scripts/session.js
 
 [mitm] 
 hostname = api.stayinsession.com
